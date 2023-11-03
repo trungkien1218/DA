@@ -38,4 +38,16 @@ export const ProductList = () => {
     </main>
   )
 }
+{/*
+ {
+        "id": 3,
+        "title": "",
+        "description": "The bouquet brings happiness to the recipient and the giver, giving love, durable with time",
+        "price": 1249,
+        "category": "flower",
+        "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        
+    },
+
+*/}
 
