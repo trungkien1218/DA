@@ -129,7 +129,24 @@ const products = [
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8aaFQ_HKzmqBATDmIdTUBn7IHUo3dBLqRhw&usqp=CAU",
         
     },
-    
+    {
+        "id": 15,
+        "title": "S&P",
+        "description": "The bouquet brings happiness to the recipient and the giver, giving love, durable with time",
+        "price": 349,
+        "category": "flower",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBOCmmSWlxanpfd7LsIPHxp_d9mpJak5cmg&usqp=CAU",
+        
+    },
+    {
+        "id": 16,
+        "title": "Rabby",
+        "description": "The bouquet brings happiness to the recipient and the giver, giving love, durable with time",
+        "price": 349,
+        "category": "flower",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3gHHVjy99CSnNV0lvHvB9g5Jl-5f0bIlgi8KEfB3_F2kvOryW0MmcXG6bKrA02eBRy8M&usqp=CAU",
+        
+    },
 ]
 //cung cấp dữ liệu sản phẩm cho toàn bộ cửa hàng 
 //hiển thị danh sách sản phẩm trong trang <Product />
