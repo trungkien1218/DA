@@ -8,7 +8,7 @@ export const ProductList = () => {
   const { products } = useAppContext();
   return (
     <main className='main-prd'>
-      <h1 style={{ color: 'white', textAlign: 'center', padding: '50px' }}>Product list page</h1>
+      <h1 style={{ color: 'Black', textAlign: 'center', padding: '50px' }}>My product</h1>
       <div className='container '>
         <div className='prd-page'>
           {products.map(product => (

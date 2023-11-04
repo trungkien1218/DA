@@ -5,16 +5,16 @@
 }
 
 .logo-hd {
-    background-image: url(img/lam-logos_white.png);
+    background-image: url(img/logo.png);
     background-size: cover;
-    max-width: 100%;
+    
     height: 100px;
-    width: 100px;
+    width: 150px;
 
 }
 
 .main-prd {
-    background-image: url(img/background-full.png);
+    background-image: url(img/background.jpg);
     background-size: cover;
     max-width: 100%;
 }
@@ -30,13 +30,13 @@
 
 .prd {
     display: block;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
 
 }
 
 .prd:hover {
-    background-color: rgb(8, 8, 8, 0.5);
+    background-color: rgb(8, 8, 8, 0.1);
 }
 
 .img-prd {
@@ -46,8 +46,8 @@
     border-radius: 16px;
     padding: 20px;
     overflow: hidden;
-
-
+    align-items: center;
+margin-left: -10px;
 }
 
 .container {
@@ -63,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-image: url(img/HDer.png);
+   
     background-size: cover;
 }
 
@@ -72,17 +72,21 @@
     padding: 20px;
     border: 2px solid white;
     border-radius: 5px;
+   text-align: center;
+   padding-top: 40px;
 }
 
 .text-nav {
-    color: white;
+    color: rgb(255 32 154);
     text-decoration: none;
     font-size: 17.5px;
+    
 }
 
 .product-cart-thumbnail {
     align-items: center;
     margin: 0 auto;
+    
 }
 
 .product-cart {
@@ -93,35 +97,35 @@
     text-align: center;
     color: black;
     font-size: 15px;
-    color: white;
+   
 }
 
 .product-card-price {
     text-align: center;
     color: black;
-    color: white;
+ 
 }
 
 
 /*product- detail chi tiết sản phẩm */
 .main-detail {
-    background-image: url(img/BG-prd-detail.png);
+    background-image: url(img/background.jpg);
     background-size: cover;
     max-width: 100%;
-    padding: 150px;
+    padding: 100px;
 }
 
 .prd-detail {
     display: grid;
     grid-template: auto /repeat(2, 1fr);
-    gap: 100px;
-    border: 5px solid rgb(12, 12, 12);
+    gap: 30px;
     border-radius: 20px;
 }
 
 .prd-d-img {
     padding: 20px;
     max-width: 100%;
+    height: 322px;
 }
 
 .prd-text {
