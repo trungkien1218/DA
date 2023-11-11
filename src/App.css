@@ -215,9 +215,9 @@ margin-left: -10px;
     height: 700px;
 }
 .myshadow {
-    color: #ab0db9;
+    color: rgb(221, 10, 240);
  
-    text-shadow: 0px 0px 10px #6d0240
+    text-shadow: 0px 0px 10px #ff0597
  }
 .sec2{
     display: grid;
@@ -226,7 +226,13 @@ margin-left: -10px;
     padding-top: 50px;
 }
 .img2{
-    background-image: url(img/img2.jpg);
+    background-image: url(img/sec1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+}
+.img3{
+    background-image: url(img/sec3.jpg);
     background-size: cover;
     max-width: 100%;
     height: 600px;
@@ -240,3 +246,52 @@ margin-left: -10px;
  
     text-shadow: 0px 0px 10px #dd79bc
  }
+ /*Carouselllllllllll*/
+ .pic1 {
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+
+}
+.pic2 {
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+
+}
+.pic3 {
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+
+}
+.pic4 {
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+
+}
+.pic5 {
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+
+}
+.text-caro{
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    padding-top: 300px;
+    padding-bottom: 10px;
+}
+.text-caro2{
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+ 
+    font-size: 30px;
+}
