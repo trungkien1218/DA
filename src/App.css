@@ -295,3 +295,9 @@ margin-left: -10px;
  
     font-size: 30px;
 }
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: #ff0597;
+}
