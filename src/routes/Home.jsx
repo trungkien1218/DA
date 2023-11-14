@@ -10,7 +10,7 @@ const contentStyle = {
 const Home = () => {
   return (
     <>
-      <main className='main-home'>
+      <main className='main-prd'>
 
         <section className='sec1'>
           <Carousel autoplay>
