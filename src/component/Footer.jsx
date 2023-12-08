@@ -2,11 +2,12 @@ import React from 'react'
 import { FacebookOutlined, InstagramOutlined } from '@ant-design/icons'
 const Footer = () => {
   return (
-    <footer className='container footer'>
+    <div style={{backgroundColor:'black'}}>
+      <footer className='container footer'>
       <div>
         <h3 style={{ paddingBottom: '30px' }}>Lily Shop</h3>
         <p>Hotline: 0348.863.083-0963.155.397</p>
-        <p>address: 11 /02/03 Luong The Vinh Ha Noi</p>
+        <p>address: 11/02/03 Luong The Vinh Ha Noi</p>
       </div>
       <div>
         <h3 style={{ paddingBottom: '30px' }}>Policy</h3>
@@ -20,6 +21,7 @@ const Footer = () => {
         <span><FacebookOutlined /><InstagramOutlined /></span>
       </div>
     </footer>
+    </div>
   )
 }
 
